@@ -9,7 +9,8 @@ app.use(json());
 let memoDb = [];
 let id = 1;
 
-const message = "updated variable"
+const message = "updated"
+const variableByZaw = "aishiteru"
 
 // add new coffee menu || CREATE
 app.post("/", (req, res) => {
