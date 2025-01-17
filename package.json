@@ -1,0 +1,20 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "\"Develop api for coffee website\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "zaw hein htet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express_demo": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
